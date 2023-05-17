@@ -1,0 +1,42 @@
+.trending-songs {
+  background: rgb(128, 128, 128);
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0 20px;
+  width: 90%;
+}
+.trending-songs h3 {
+  margin: 0 0 15px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.trending-songs section {
+  margin: 10px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.trending-songs section h4 {
+  margin: 0 15px 0 0;
+}
+.trending-songs button {
+  margin: 10px 0 0;
+}
+
+@media screen and (min-width: 800px) {
+  .trending-songs {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .trending-songs {
+    width: 30%;
+  }
+}

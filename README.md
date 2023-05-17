@@ -1,1 +1,2 @@
 "# Edustipend-task" 
+Picked the banner and the trending music as the core component because it shows what the function  of the website is. You immediately grab that  it is a music streaming website this is not to say that the navbar is not important.

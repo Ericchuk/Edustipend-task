@@ -1,0 +1,36 @@
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+.sub-container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 40px;
+}
+.sub-container p {
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 800px) {
+  .sub-container {
+    width: 80%;
+  }
+  .sub-container h1 {
+    font-size: 50px;
+  }
+  .sub-container p {
+    margin: 10px 0;
+    font-size: 25px;
+  }
+  .sub-container button {
+    font-size: 21px;
+  }
+}
